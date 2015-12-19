@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="serialportArray">
+        <item>com0</item>
+        <item>com1</item>
+        <item>com2</item>
+        <item>com3</item>
+        <item>com4</item>
+        <item>com5</item>
+        <item>com6</item>
+        <item>com7</item>
+        <item>com8</item>
+        <item>com9</item>
+        <item>com10</item>
+        <item>com11</item>
+        <item>com12</item>
+        <item>com13</item>
+        <item>com14</item>
+        <item>com15</item>
+    </string-array>
+    <string-array name="buadrateArray">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>128000</item>
+        <item>256000</item>
+    </string-array>
+        <string-array name="powerArray">
+        <item>3.3V</item>
+        <item>5V</item>
+        <item>scan power</item>
+        <item>psam power</item>
+        <item>rfid power</item>
+
+    </string-array>
+
+
+    <!--rf模块参数-->
+    <string-array name="rfCommBaudRateArray">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+
+    <string-array name="rfFactorArray">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array>
+
+    <string-array name="rfBwArray">
+        <item>62.5K</item>
+        <item>125K</item>
+        <item>250K</item>
+        <item>500K</item>
+    </string-array>
+
+    <string-array name="rfPowerArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="rfBreathArray">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

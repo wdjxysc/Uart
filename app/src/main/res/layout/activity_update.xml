@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.uart.UpdateActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表网络地址"
+            android:textSize="30px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodeidEditText"
+            android:text="0005"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表地址"
+            android:textSize="30px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressidEditText"
+            android:text="23051507000005"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <Button
+            android:id="@+id/getStateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询状态"
+            android:background="@drawable/normalselector"
+            android:textColor="#eeeeee"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/meterStateTextView"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="请先查询表状态"
+            android:maxLines="2"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="5dp">-->
+        <!--<Button-->
+            <!--android:id="@+id/resetBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="重启设备"-->
+            <!--android:background="@drawable/normalselector"-->
+            <!--android:textColor="#eeeeee"-->
+            <!--android:textSize="15sp"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/resetTextView"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:text=""-->
+            <!--android:maxLines="2"-->
+            <!--android:gravity="center_vertical"/>-->
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/normalselector"
+                android:padding="0dp"
+                android:textColor="#eeeeee"
+                android:textSize="15sp"
+                android:text="升级"/>
+            <ProgressBar
+                android:id="@+id/indicatorProgressBar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/percentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:text="100%"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextInfo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:lineSpacingExtra="4dp"
+        android:layout_weight="9"
+        android:gravity="top"
+        android:background="@drawable/corners_background"
+        android:inputType="none"
+        android:textSize="20sp"/>
+</LinearLayout>

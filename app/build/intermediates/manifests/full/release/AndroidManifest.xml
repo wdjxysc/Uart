@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uart_meter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.noactionbar" >
+        <activity
+            android:name="com.example.uart.MainActivity"
+            android:label="MainActivity" >
+        </activity>
+        <activity android:name="com.example.uart.LoginActivity" >
+        </activity>
+        <activity
+            android:name="com.example.uart.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.uart.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.uart.UpdateActivity"
+            android:label="@string/title_activity_update" >
+        </activity>
+        <activity
+            android:name="com.example.uart.Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name="com.example.uart.CustomViewActivity"
+            android:label="@string/title_activity_custom_view" >
+        </activity>
+        <activity
+            android:name="com.example.uart.AtyListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uart.ViewPagerIndicatorActivity"
+            android:label="@string/title_activity_view_pager_indicator" >
+        </activity>
+        <activity
+            android:name="com.example.test.MeterTestActivity"
+            android:label="@string/title_activity_meter_test" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterTestActivity"
+            android:label="@string/title_activity_rlmeter_test" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterSettingsActivity"
+            android:label="@string/title_activity_rlmeter_settings" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterManagerActivity"
+            android:label="@string/title_activity_rlmeter_manager" >
+        </activity>
+        <activity
+            android:name="com.example.activity.SetHandleRfNetIDActivity"
+            android:label="@string/title_activity_set_net_id" >
+        </activity>
+        <activity
+            android:name="com.example.activity.SetMeterRfParamActivity"
+            android:label="@string/title_activity_set_meter_rf_param" >
+        </activity>
+        <activity
+            android:name="com.example.lierda.LierdaRfActivity"
+            android:label="@string/title_activity_activity_lierda_rf" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterIdManageActivity"
+            android:label="@string/title_activity_meter_id_manage" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLInfoManageActivity"
+            android:label="@string/title_activity_info_manage" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterInfoActivity"
+            android:label="@string/title_activity_meter_info" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLReadMeterDataActivity"
+            android:label="@string/title_activity_rlread_meter_data" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterDataActivity"
+            android:label="@string/title_activity_rlmeter_data" >
+        </activity>
+        <activity
+            android:name="com.example.activity.RLMeterDataListActivity"
+            android:label="@string/title_activity_rlmeter_data_list" >
+        </activity>
+    </application>
+
+</manifest>

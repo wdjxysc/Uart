@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="22.2.0"><source path="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\res"/></dataSet><dataSet config="22.2.0"><source path="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\res"><file path="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\res\values\values.xml" qualifiers=""><item name="item_touch_helper_previous_elevation" type="id"/><declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable><dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen></file></source></dataSet><dataSet config="main"><source path="D:\Work\Android\project\Uart\app\src\main\res"><file name="svfade_in_center" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svfade_in_center.xml" qualifiers="" type="anim"/><file name="svfade_out_center" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svfade_out_center.xml" qualifiers="" type="anim"/><file name="svslide_in_bottom" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svslide_in_bottom.xml" qualifiers="" type="anim"/><file name="svslide_in_top" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svslide_in_top.xml" qualifiers="" type="anim"/><file name="svslide_out_bottom" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svslide_out_bottom.xml" qualifiers="" type="anim"/><file name="svslide_out_top" path="D:\Work\Android\project\Uart\app\src\main\res\anim\svslide_out_top.xml" qualifiers="" type="anim"/><file name="corners_background" path="D:\Work\Android\project\Uart\app\src\main\res\drawable\corners_background.xml" qualifiers="" type="drawable"/><file name="normalselector" path="D:\Work\Android\project\Uart\app\src\main\res\drawable\normalselector.xml" qualifiers="" type="drawable"/><file name="separate_line_recyclerview" path="D:\Work\Android\project\Uart\app\src\main\res\drawable\separate_line_recyclerview.xml" qualifiers="" type="drawable"/><file name="tabselector" path="D:\Work\Android\project\Uart\app\src\main\res\drawable\tabselector.xml" qualifiers="" type="drawable"/><file name="bg_overlay_gradient" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\bg_overlay_gradient.xml" qualifiers="hdpi" type="drawable"/><file name="bg_svprogresshuddefault" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\bg_svprogresshuddefault.xml" qualifiers="hdpi" type="drawable"/><file name="ic_keyboard_arrow_right_white_48dp" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\ic_keyboard_arrow_right_white_48dp.png" qualifiers="hdpi" type="drawable"/><file name="ic_svstatus_error" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\ic_svstatus_error.png" qualifiers="hdpi" type="drawable"/><file name="ic_svstatus_info" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\ic_svstatus_info.png" qualifiers="hdpi" type="drawable"/><file name="ic_svstatus_loading" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\ic_svstatus_loading.png" qualifiers="hdpi" type="drawable"/><file name="ic_svstatus_success" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-hdpi\ic_svstatus_success.png" qualifiers="hdpi" type="drawable"/><file name="ic_keyboard_arrow_right_white_48dp" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-mdpi\ic_keyboard_arrow_right_white_48dp.png" qualifiers="mdpi" type="drawable"/><file name="ic_keyboard_arrow_right_white_48dp" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-xhdpi\ic_keyboard_arrow_right_white_48dp.png" qualifiers="xhdpi" type="drawable"/><file name="ic_action_action_perm_identity" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-xxhdpi\ic_action_action_perm_identity.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_action_action_perm_identity_n" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-xxhdpi\ic_action_action_perm_identity_n.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_keyboard_arrow_right_white_48dp" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-xxhdpi\ic_keyboard_arrow_right_white_48dp.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_launcher" path="D:\Work\Android\project\Uart\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_activity_lierda_rf" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_activity_lierda_rf.xml" qualifiers="" type="layout"/><file name="activity_aty_list" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_aty_list.xml" qualifiers="" type="layout"/><file name="activity_custom_view" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_custom_view.xml" qualifiers="" type="layout"/><file name="activity_login" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_main2" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_main2.xml" qualifiers="" type="layout"/><file name="activity_meter_test" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_meter_test.xml" qualifiers="" type="layout"/><file name="activity_rlmeter_manager" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlmeter_manager.xml" qualifiers="" type="layout"/><file name="activity_rlmeter_settings" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlmeter_settings.xml" qualifiers="" type="layout"/><file name="activity_rlmeter_test" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlmeter_test.xml" qualifiers="" type="layout"/><file name="activity_second" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_second.xml" qualifiers="" type="layout"/><file name="activity_set_meter_rf_param" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_set_meter_rf_param.xml" qualifiers="" type="layout"/><file name="activity_set_net_id" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_set_net_id.xml" qualifiers="" type="layout"/><file name="activity_third" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_third.xml" qualifiers="" type="layout"/><file name="activity_update" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_update.xml" qualifiers="" type="layout"/><file name="activity_view_pager_indicator" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_view_pager_indicator.xml" qualifiers="" type="layout"/><file name="dialog" path="D:\Work\Android\project\Uart\app\src\main\res\layout\dialog.xml" qualifiers="" type="layout"/><file name="fragment_vp_simple" path="D:\Work\Android\project\Uart\app\src\main\res\layout\fragment_vp_simple.xml" qualifiers="" type="layout"/><file name="itemlayout" path="D:\Work\Android\project\Uart\app\src\main\res\layout\itemlayout.xml" qualifiers="" type="layout"/><file name="item_aty" path="D:\Work\Android\project\Uart\app\src\main\res\layout\item_aty.xml" qualifiers="" type="layout"/><file name="layout_svprogresshud" path="D:\Work\Android\project\Uart\app\src\main\res\layout\layout_svprogresshud.xml" qualifiers="" type="layout"/><file name="meter_info_item" path="D:\Work\Android\project\Uart\app\src\main\res\layout\meter_info_item.xml" qualifiers="" type="layout"/><file name="view_svprogressdefault" path="D:\Work\Android\project\Uart\app\src\main\res\layout\view_svprogressdefault.xml" qualifiers="" type="layout"/><file name="main" path="D:\Work\Android\project\Uart\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="menu_aty_list" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_aty_list.xml" qualifiers="" type="menu"/><file name="menu_custom_view" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_custom_view.xml" qualifiers="" type="menu"/><file name="menu_login" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_login.xml" qualifiers="" type="menu"/><file name="menu_main2" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_main2.xml" qualifiers="" type="menu"/><file name="menu_meter_test" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_meter_test.xml" qualifiers="" type="menu"/><file name="menu_rlmeter_manager" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_rlmeter_manager.xml" qualifiers="" type="menu"/><file name="menu_rlmeter_settings" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_rlmeter_settings.xml" qualifiers="" type="menu"/><file name="menu_rlmeter_test" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_rlmeter_test.xml" qualifiers="" type="menu"/><file name="menu_second" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_second.xml" qualifiers="" type="menu"/><file name="menu_set_meter_rf_param" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_set_meter_rf_param.xml" qualifiers="" type="menu"/><file name="menu_set_net_id" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_set_net_id.xml" qualifiers="" type="menu"/><file name="menu_update" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_update.xml" qualifiers="" type="menu"/><file name="menu_view_pager_indicator" path="D:\Work\Android\project\Uart\app\src\main\res\menu\menu_view_pager_indicator.xml" qualifiers="" type="menu"/><file path="D:\Work\Android\project\Uart\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="rfBwArray">
+        <item>62.5K</item>
+        <item>125K</item>
+        <item>250K</item>
+        <item>500K</item>
+    </string-array><string-array name="rfBreathArray">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array><string-array name="buadrateArray">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>128000</item>
+        <item>256000</item>
+    </string-array><string-array name="powerArray">
+        <item>3.3V</item>
+        <item>5V</item>
+        <item>scan power</item>
+        <item>psam power</item>
+        <item>rfid power</item>
+
+    </string-array><string-array name="serialportArray">
+        <item>com0</item>
+        <item>com1</item>
+        <item>com2</item>
+        <item>com3</item>
+        <item>com4</item>
+        <item>com5</item>
+        <item>com6</item>
+        <item>com7</item>
+        <item>com8</item>
+        <item>com9</item>
+        <item>com10</item>
+        <item>com11</item>
+        <item>com12</item>
+        <item>com13</item>
+        <item>com14</item>
+        <item>com15</item>
+    </string-array><string-array name="rfCommBaudRateArray">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array><string-array name="rfPowerArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array><string-array name="rfFactorArray">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SVCircleProgressBar">
+        <attr format="color" name="roundColor"/>
+        <attr format="color" name="roundProgressColor"/>
+        <attr format="dimension" name="roundWidth"/>
+        <attr format="integer" name="max"/>
+        <attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\colors.xml" qualifiers=""><color name="bgColor_item">#cccccc</color><color name="textColor_initialized">#11aa44</color><color name="roundProgressColor_svprogresshuddefault">@android:color/black</color><color name="bgColor_overlay">#60000000</color><color name="bgColor_svprogressdefaultview">@android:color/white</color><color name="textColor_unInitialize">#dd0000</color><color name="bgColor_overlay_black">#95000000</color><color name="textColor_svprogresshuddefault_msg">#000000</color><color name="roundColor_svprogresshuddefault">#e5e5e5</color></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="margintop_svprogresshuddefault_msg">10dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="padding_svprogresshuddefault">15dp</dimen><dimen name="size_minwidth_svprogresshuddefault">120dp</dimen><dimen name="size_image_smallloading">60dp</dimen><dimen name="textSize_svprogresshuddefault_msg">15sp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="size_image_bigloading">80dp</dimen><dimen name="radius_svprogresshuddefault">25px</dimen></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\integers.xml" qualifiers=""><integer name="svanimation_default_duration">300</integer></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\MyViewPagerIndicator.xml" qualifiers=""><attr format="integer" name="item_count"/><declare-styleable name="MyViewPagerIndicator">
+        <attr name="item_count"/>
+    </declare-styleable></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\strings.xml" qualifiers=""><string name="title_activity_rlmeter_settings">RLMeterSettingsActivity</string><string name="title_activity_login">LoginActivity</string><string name="serialport">串口号：</string><string name="state">状态</string><string name="hex_send">HEX发送</string><string name="close">关闭</string><string name="title_activity_meter_info">MeterInfoActivity</string><string name="title_activity_aty_list">AtyListActivity</string><string name="send">发送</string><string name="title_activity_third">ThirdActivity</string><string name="title_activity_view_pager_indicator">ViewPagerIndicatorActivity</string><string name="title_activity_rlmeter_test">RLMeterTestActivity</string><string name="open">打开</string><string name="title_activity_update">UpdateActivity</string><string name="time">时间:</string><string name="hello_world">Hello world!</string><string name="null_value">--</string><string name="hex_recv">HEX接收</string><string name="action_settings">Settings</string><string name="app_name">抄表调试工具</string><string name="title_activity_rlmeter_manager">RLMeterManagerActivity</string><string name="title_activity_custom_view">CustomViewActivity</string><string name="title_activity_main2">Main2Activity</string><string name="title_activity_rlmeter_data_list">RLMeterDataListActivity</string><string name="power">电源：</string><string name="title_activity_set_meter_rf_param">SetMeterRfParamActivity</string><string name="meter_data">读数:</string><string name="hello_blank_fragment">Hello blank fragment</string><string name="title_activity_rlmeter_data">RLMeterDataActivity</string><string name="title_activity_meter_id_manage">MeterIdManageActivity</string><string name="title_activity_set_net_id">SetHandleRfNetIDActivity</string><string name="title_activity_rlbuildings_list">RLBuildingsListActivity</string><string name="title_activity_second">SecondActivity</string><string name="title_activity_meter_test">MeterTestActivity</string><string name="title_activity_info_manage">InfoManageActivity</string><string name="buad_rate">波特率：</string><string name="title_activity_rlread_meter_data">RLReadMeterDataActivity</string><string name="title_activity_activity_lierda_rf">ActivityLierdaRf</string><string name="clear">清空</string></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values\styles.xml" qualifiers=""><style name="FontStyle">
+    	<item name="android:textSize">16sp</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+    </style><style name="AppTheme.noactionbar">
+        <item name="android:windowNoTitle">true</item> //此行代码是添加的，去掉标题栏（操作栏）
+    </style><style name="AlertActivity_AlertStyle" parent="android:Theme.Dialog">
+        <!--<item name="android:windowAnimationStyle">@style/AnimAlert</item>-->
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="D:\Work\Android\project\Uart\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="activity_rlmeter_data_list" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlmeter_data_list.xml" qualifiers="" type="layout"/><file name="item_meter" path="D:\Work\Android\project\Uart\app\src\main\res\layout\item_meter.xml" qualifiers="" type="layout"/><file name="activity_info_manage" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_info_manage.xml" qualifiers="" type="layout"/><file name="item_read_meter_data" path="D:\Work\Android\project\Uart\app\src\main\res\layout\item_read_meter_data.xml" qualifiers="" type="layout"/><file name="activity_rlread_meter_data" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlread_meter_data.xml" qualifiers="" type="layout"/><file name="item_data" path="D:\Work\Android\project\Uart\app\src\main\res\layout\item_data.xml" qualifiers="" type="layout"/><file name="activity_meter_info" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_meter_info.xml" qualifiers="" type="layout"/><file name="activity_meter_id_manage" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_meter_id_manage.xml" qualifiers="" type="layout"/><file name="activity_rlmeter_data" path="D:\Work\Android\project\Uart\app\src\main\res\layout\activity_rlmeter_data.xml" qualifiers="" type="layout"/><file name="item_selector" path="D:\Work\Android\project\Uart\app\src\main\res\drawable\item_selector.xml" qualifiers="" type="drawable"/></source><source path="D:\Work\Android\project\Uart\app\build\generated\res\rs\release"/><source path="D:\Work\Android\project\Uart\app\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="D:\Work\Android\project\Uart\app\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MyViewPagerIndicator"><attr name="item_count"/></declare-styleable><declare-styleable name="SVCircleProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="integer" name="max"/><attr name="style"><enum name="STROKE" value="0"/><enum name="FILL" value="1"/></attr></declare-styleable><declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable></configuration></mergedItems></merger>

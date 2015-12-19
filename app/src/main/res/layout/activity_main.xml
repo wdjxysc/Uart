@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editTextInfo"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_weight="9"
+                android:gravity="top"
+                android:background="@drawable/corners_background" >
+            </EditText>
+            <Spinner
+                android:id="@+id/cmdSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FontStyle"
+                android:text="表号" />
+            <EditText
+                android:id="@+id/meterIdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="2"
+                android:background="@drawable/corners_background"
+                android:text="07000005"
+                android:gravity="top"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FontStyle"
+                android:text="读数" />
+            <EditText
+                android:id="@+id/meterValueEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners_background"
+                android:minLines="2"
+                android:gravity="top"
+                android:text="109.6"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FontStyle"
+                android:text="原地址" />
+            <EditText
+                android:id="@+id/meterOldAddressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners_background"
+                android:minLines="2"
+                android:gravity="top"
+                android:text="23051507000005"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FontStyle"
+                android:text="新地址" />
+            <EditText
+                android:id="@+id/meterNewAddressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners_background"
+                android:minLines="2"
+                android:gravity="top"
+                android:text="23051507000006"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FontStyle"
+                android:text="状态" />
+
+            <EditText
+                android:id="@+id/meterStateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners_background"
+                android:gravity="top"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/FontStyle"-->
+                <!--android:text="标准时间" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/timeEditText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/corners_background"-->
+                <!--android:gravity="top"-->
+                <!--android:text="20150716125040"-->
+                <!--android:minLines="2"/>-->
+
+            <CheckBox
+            android:id="@+id/checkBoxHexRecv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hex_recv" />
+
+            <CheckBox
+                android:id="@+id/checkBoxHexSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hex_send" />
+            <Button
+                android:id="@+id/buttonOpen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/open" />
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clear" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/corners_background"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:minLines="10"
+            android:gravity="top">
+
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/send" />
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

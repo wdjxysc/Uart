@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Work\Android\project\Uart\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-62d2250b779f2f1b7b079d4a13ebe5af1298c217.jar" />
+    </item>
+    <item
+        jar="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Work\Android\project\Uart\app\build\intermediates\pre-dexed\debug\classes-632a696f24805c749a2424a65072ea97aa69501a.jar" />
+    </item>
+    <item
+        jar="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Work\Android\project\Uart\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c2c66a0a73df1e9fcc91e27751e7d28c000ff581.jar" />
+    </item>
+    <item
+        jar="D:\Work\Android\project\Uart\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="D:\Work\Android\project\Uart\app\build\intermediates\pre-dexed\debug\classes-c64e7cec51c535a586b8c1ecff7ecfe9e87fd426.jar" />
+    </item>
+
+</items>
